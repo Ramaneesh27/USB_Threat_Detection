@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>USB Threat Analyzer</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body data-auto-threshold="{{ auto_quarantine_threshold }}">
+<div class="bg-orbs">
+  <span class="orb orb-cyan"></span>
+  <span class="orb orb-purple"></span>
+  <span class="orb orb-blue"></span>
+</div>
+
+<header class="topbar glass">
+  <div class="brand">
+    <span class="brand-mark"></span>
+    <div>
+      <h1>USB Threat Analyzer</h1>
+      <p class="subtitle">Automatic detection &middot; Static &amp; dynamic analysis &middot; Forensic reporting</p>
+    </div>
+  </div>
+  <div id="monitorState" class="monitor-pill idle">
+    <span class="dot"></span>
+    <span class="label">Watching for USB devices&hellip;</span>
+  </div>
+</header>
+
+<div class="layout">
+
+<nav class="sidebar glass">
+  <button class="nav-item active" data-view="dashboard">
+    <span class="nav-icon">&#9635;</span> Dashboard
+  </button>
+  <button class="nav-item" data-view="quarantine">
+    <span class="nav-icon">&#9888;</span> Quarantine
+  </button>
+  <button class="nav-item" data-view="sandbox">
+    <span class="nav-icon">&#9638;</span> Sandbox
+  </button>
+  <button class="nav-item" data-view="settings">
+    <span class="nav-icon">&#9881;</span> Settings
+  </button>
+</nav>
+
+<main id="view-dashboard" class="grid">
+
+  <!-- USB STATUS -->
+  <section id="usbCard" class="card glass span-2">
+    <div class="card-head">
+      <h2>USB Status</h2>
+    </div>
+    <div id="usbList" class="usb-list">
+      <p class="empty-hint">No removable drive connected. Insert a USB device to begin an automatic scan.</p>
+    </div>
+    <div id="scanProgressWrap" class="progress-wrap hidden">
+      <div class="progress-meta">
+        <span id="progressLabel">Scanning&hellip;</span>
+        <span id="progressCount">0 / 0</span>
+      </div>
+      <div class="progress-track"><div id="progressBar" class="progress-bar"></div></div>
+      <p id="progressFile" class="progress-file"></p>
+    </div>
+  </section>
+
+  <!-- LEVEL SUMMARY CARDS -->
+  <section id="level1Card" class="card glass">
+    <div class="card-head"><span class="level-tag l1">L1</span><h2>File Security Scanner</h2></div>
+    <p class="card-desc">Images, documents, PDFs, text, office, audio, video.</p>
+    <div class="stat-row"><span>Files analyzed</span><strong id="l1Count">0</strong></div>
+    <div class="stat-row"><span>Flagged</span><strong id="l1Flagged">0</strong></div>
+  </section>
+
+  <section id="level2Card" class="card glass">
+    <div class="card-head"><span class="level-tag l2">L2</span><h2>ZIP &amp; Script AST</h2></div>
+    <p class="card-desc">Archive safety limits &amp; abstract syntax tree analysis.</p>
+    <div class="stat-row"><span>Archives / scripts</span><strong id="l2Count">0</strong></div>
+    <div class="stat-row"><span>Flagged</span><strong id="l2Flagged">0</strong></div>
+  </section>
+
+  <section id="level3Card" class="card glass">
+    <div class="card-head"><span class="level-tag l3">L3</span><h2>Executable Static Analysis</h2></div>
+    <p class="card-desc">PE headers, sections, imports, signatures.</p>
+    <div class="stat-row"><span>Executables</span><strong id="l3Count">0</strong></div>
+    <div class="stat-row"><span>Flagged</span><strong id="l3Flagged">0</strong></div>
+  </section>
+
+  <section id="level4Card" class="card glass">
+    <div class="card-head"><span class="level-tag l4">L4</span><h2>Sandbox Runtime</h2></div>
+    <p class="card-desc">Isolated dynamic execution &amp; snapshot comparison.</p>
+    <div id="sandboxStatusList" class="sandbox-status-list">
+      <div class="sandbox-status-row"><span>Windows Sandbox</span><em id="wsStatus">checking&hellip;</em></div>
+      <div class="sandbox-status-row"><span>VMware</span><em id="vmwareStatus">checking&hellip;</em></div>
+      <div class="sandbox-status-row"><span>VirtualBox</span><em id="vboxStatus">checking&hellip;</em></div>
+    </div>
+  </section>
+
+  <!-- FILE RESULTS -->
+  <section id="resultsCard" class="card glass span-2">
+    <div class="card-head">
+      <h2>Scan Results</h2>
+      <button id="genReportBtn" class="btn btn-ghost" disabled>Generate Report</button>
+    </div>
+    <p class="card-desc drop-hint">Tip: drag files or folders from File Explorer anywhere into this window to scan them.</p>
+    <div class="table-wrap">
+      <table id="resultsTable">
+        <thead>
+          <tr><th>File</th><th>Level</th><th>Risk</th><th>Why flagged</th><th></th></tr>
+        </thead>
+        <tbody id="resultsBody">
+          <tr><td colspan="5" class="empty-hint">No files scanned yet.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- HISTORY -->
+  <section id="historyCard" class="card glass span-2">
+    <div class="card-head"><h2>Scan History</h2></div>
+    <div class="table-wrap">
+      <table id="historyTable">
+        <thead>
+          <tr><th>USB</th><th>Date</th><th>Files</th><th>Suspicious</th><th>Highest Risk</th><th>Report</th></tr>
+        </thead>
+        <tbody id="historyBody">
+          <tr><td colspan="6" class="empty-hint">No previous scans.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+</main>
+
+<main id="view-sandbox" class="grid hidden">
+  <section class="card glass span-all">
+    <div class="card-head"><h2>Manual Sandbox Analysis</h2></div>
+    <p class="card-desc">Choose one suspicious file from a USB drive or this PC. It runs only inside the selected isolated environment.</p>
+    <label class="sandbox-dropzone" id="sandboxDropZone" for="sandboxFileInput">
+      <strong>Drop one file here or browse</strong>
+      <span id="sandboxFileName">No file selected</span>
+      <input id="sandboxFileInput" type="file">
+    </label>
+    <div class="sandbox-manual-actions">
+      <button id="sandboxAnalyzeBtn" class="btn btn-primary" disabled>Run Analysis</button>
+      <span id="sandboxManualStatus" class="card-desc" role="status"></span>
+    </div>
+    <div id="sandboxRunResult" class="sandbox-run-result hidden" aria-live="polite">
+      <strong id="sandboxResultTitle"></strong>
+      <p id="sandboxResultNotes" class="card-desc"></p>
+      <a id="sandboxReportLink" class="btn btn-ghost" href="#" download>Download PDF report</a>
+    </div>
+    <div id="sandboxSnapshotViewer" class="sandbox-snapshot-viewer hidden">
+      <div class="card-head"><h3>VM Snapshot Viewer</h3></div>
+      <div id="sandboxSnapshotMeta" class="card-desc"></div>
+      <div class="sandbox-snapshot-tabs">
+        <button id="sandboxBeforeTab" class="btn btn-sm btn-primary">BEFORE</button>
+        <button id="sandboxAfterTab" class="btn btn-sm btn-ghost">AFTER</button>
+        <button id="sandboxChangesTab" class="btn btn-sm btn-ghost">CHANGES</button>
+      </div>
+      <pre id="sandboxSnapshotDetails" class="sandbox-snapshot-details"></pre>
+    </div>
+  </section>
+</main>
+
+<main id="view-quarantine" class="grid hidden">
+
+  <!-- ADD FILES TO QUARANTINE -->
+  <section id="quarantineAddCard" class="card glass span-all">
+    <div class="card-head"><h2>Add files to quarantine</h2></div>
+    <p class="card-desc">
+      Automatic rule: any scanned file with a risk score of <strong>{{ auto_quarantine_threshold }} or higher</strong>
+      is moved to quarantine on its own, and the PDF report says so. You can also quarantine files yourself &mdash;
+      from a USB drive or from this PC. Files are moved (never deleted) and can be restored later.
+    </p>
+    <div id="qDropZone" class="q-dropzone">
+      <strong>Drag &amp; drop files here</strong>
+      <span>from File Explorer or your USB drive (desktop app). Drop individual files &mdash; folders are not accepted.</span>
+      <button id="qBrowseBtn" class="btn btn-primary">Browse USB / PC files&hellip;</button>
+    </div>
+
+    <div id="qBrowser" class="q-browser hidden">
+      <div id="qRoots" class="q-roots"></div>
+      <div class="q-pathbar">
+        <button id="qUpBtn" class="btn btn-sm btn-ghost" disabled>&uarr; Up</button>
+        <input id="qPathInput" type="text" spellcheck="false" autocomplete="off"
+               placeholder="Folder path, e.g. E:\ or C:\Users\you\Downloads">
+        <button id="qGoBtn" class="btn btn-sm btn-ghost">Open</button>
+      </div>
+      <div class="table-wrap q-list-wrap">
+        <table id="qFileTable">
+          <thead>
+            <tr><th class="q-check"><input type="checkbox" id="qSelectAll" title="Select every file in this folder"></th>
+                <th>Name</th><th>Size</th><th>Modified</th></tr>
+          </thead>
+          <tbody id="qFileBody">
+            <tr><td colspan="4" class="empty-hint">Choose a drive or folder above.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="q-actions">
+        <span id="qSelCount" class="card-desc">0 files selected</span>
+        <button id="qClearBtn" class="btn btn-sm btn-ghost" disabled>Clear selection</button>
+        <button id="qQuarantineBtn" class="btn btn-danger" disabled>Quarantine selected</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUARANTINE LIST -->
+  <section id="quarantineCard" class="card glass span-all">
+    <div class="card-head"><h2>Quarantined files</h2></div>
+    <div class="table-wrap">
+      <table id="quarantineTable">
+        <thead>
+          <tr><th>Original Path</th><th>SHA-256</th><th>Risk</th><th>Status</th><th>Actions</th></tr>
+        </thead>
+        <tbody id="quarantineBody">
+          <tr><td colspan="5" class="empty-hint">No files quarantined yet.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+</main>
+
+<section id="view-settings" class="settings-view hidden">
+  <div class="card glass settings-card">
+    <div class="card-head"><h2>Settings</h2></div>
+
+    <div class="settings-row">
+      <div class="settings-row-text">
+        <h3>Start with Windows</h3>
+        <p class="card-desc">
+          Launches USB Threat Analyzer automatically when you log in to Windows,
+          so USB devices are monitored from startup. This is optional and
+          entirely under your control.
+        </p>
+      </div>
+    </div>
+
+    <label class="checkbox-row">
+      <input type="checkbox" id="startupCheckbox">
+      <span>Start USB Threat Analyzer when Windows starts</span>
+    </label>
+
+    <div class="settings-row">
+      <span>Status:</span>
+      <span id="startupStatusLabel" class="status-pill disabled">Disabled</span>
+    </div>
+
+    <div class="settings-row">
+      <button id="startupApplyBtn" class="btn btn-primary">Apply Changes</button>
+    </div>
+
+    <details class="settings-detail">
+      <summary>Technical details</summary>
+      <p class="card-desc">
+        This writes a single REG_SZ value named <code>USBThreatAnalyzer</code> under
+        <code>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run</code>,
+        pointing at this application's own executable path. No administrator
+        rights are required or requested. Unchecking and applying removes
+        only this one value; nothing else in the registry is touched.
+      </p>
+      <p id="startupRegisteredPath" class="card-desc mono"></p>
+    </details>
+  </div>
+
+  <div class="card glass settings-card">
+    <div class="card-head"><h2>Reports</h2></div>
+
+    <div class="settings-row">
+      <div class="settings-row-text">
+        <h3>Auto-Download Report</h3>
+        <p class="card-desc">
+          When enabled, a report's PDF downloads to your browser's default
+          download location automatically as soon as it finishes
+          generating - no need to click Download separately.
+        </p>
+      </div>
+    </div>
+
+    <label class="checkbox-row">
+      <input type="checkbox" id="autoDownloadCheckbox">
+      <span>Automatically download reports when generated</span>
+    </label>
+
+    <div class="settings-row">
+      <span>Status:</span>
+      <span id="autoDownloadStatusLabel" class="status-pill disabled">Disabled</span>
+    </div>
+
+    <div class="settings-row">
+      <button id="autoDownloadApplyBtn" class="btn btn-primary">Apply Changes</button>
+    </div>
+  </div>
+
+  <div class="card glass settings-card">
+    <div class="card-head"><h2>Background mode</h2></div>
+
+    <div class="settings-row">
+      <div class="settings-row-text">
+        <h3>Run persistently in the system tray</h3>
+        <p class="card-desc">
+          Keeps USB Threat Analyzer running after you minimize or close the window, like OneDrive.
+          It disappears from the taskbar and stays as a hidden icon in the Windows system tray;
+          click the icon once to bring the window back. When a USB drive is inserted the window
+          pops up on its own and shows the scan. This is off until you allow it here.
+        </p>
+      </div>
+    </div>
+
+    <label class="checkbox-row">
+      <input type="checkbox" id="backgroundCheckbox">
+      <span>Run persistently in background and show in system tray</span>
+    </label>
+
+    <div class="settings-row">
+      <span>Status:</span>
+      <span id="backgroundStatusLabel" class="status-pill disabled">Disabled</span>
+    </div>
+
+    <div class="settings-row">
+      <button id="backgroundApplyBtn" class="btn btn-primary">Apply Changes</button>
+    </div>
+    <p class="card-desc">To also start it automatically when you sign in, turn on "Start with Windows" above.</p>
+  </div>
+
+  <div class="card glass settings-card">
+    <div class="card-head"><h2>Keyboard protection (BadUSB)</h2></div>
+    <p class="card-desc">
+      Any keyboard plugged in while the app is running is watched. One that types faster than
+      <strong id="hidThreshold">100</strong> words per minute is treated as a rogue device
+      (a Rubber Ducky-style attack), keyboard input is briefly locked down, and the device is
+      disabled when the app runs as Administrator.
+    </p>
+    <div class="settings-row">
+      <span>Status:</span>
+      <span id="hidStatusLabel" class="status-pill disabled">Unknown</span>
+    </div>
+    <p id="hidStatusDetail" class="card-desc"></p>
+    <div id="hidAlertsList" class="hid-alerts"></div>
+  </div>
+</section>
+
+</div><!-- /.layout -->
+
+<div id="dropOverlay" class="drop-overlay hidden" aria-hidden="true">
+  <div class="drop-overlay-box">
+    <strong id="dropOverlayTitle">Drop to scan</strong>
+    <span id="dropOverlayText">Release files or folders from File Explorer to scan them</span>
+  </div>
+</div>
+
+<div id="toast" class="toast hidden"></div>
+<div id="sandboxModal" class="modal-overlay hidden">
+  <div class="modal glass">
+    <h3>Sandbox Login &amp; Run Analysis</h3>
+    <p id="sandboxModalFile" class="modal-file"></p>
+    <label for="sandboxSelect">Sandbox Environment</label>
+    <select id="sandboxSelect"></select>
+    <div id="vmNameWrap" class="hidden">
+      <label for="vmNameInput">VM Name / VMX Path</label>
+      <input id="vmNameInput" type="text" placeholder="e.g. Analysis-VM or C:\VMs\analysis.vmx">
+    </div>
+    <div id="sandboxPasswordWrap" class="hidden">
+      <label for="sandboxPasswordInput">Sandbox password</label>
+      <input id="sandboxPasswordInput" type="password" autocomplete="current-password" placeholder="Guest account password">
+      <small class="card-desc">The guest username is configured internally; no username is required here.</small>
+    </div>
+    <div class="modal-actions">
+      <button id="sandboxCancelBtn" class="btn btn-ghost">Cancel</button>
+      <button id="sandboxRunBtn" class="btn btn-primary">Start Analysis</button>
+    </div>
+  </div>
+</div>
+
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
