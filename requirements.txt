@@ -1,0 +1,12 @@
+# Works on Python 3.10, 3.11, 3.12, 3.13 and newer (64-bit). Lower bounds only, so pip picks the
+# newest release that has a wheel for YOUR Python version.
+Flask>=3.0.3
+psutil>=5.9.8
+watchdog>=4.0.1
+pefile>=2023.2.7
+python-magic-bin>=0.4.14; platform_system == "Windows"
+python-magic>=0.4.27; platform_system != "Windows"
+reportlab>=4.2.0
+cryptography>=42.0           # offline Authenticode signature verification
+pystray>=0.19.5; platform_system == "Windows"   # system-tray icon (background mode)
+Pillow>=10.4.0; platform_system == "Windows"

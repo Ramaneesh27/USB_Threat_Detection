@@ -1,0 +1,398 @@
+2026-10-02 19:15:15 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp6vxmuhdw\history.db
+2026-10-02 19:15:16 | INFO     | scanners.quarantine          | Quarantined (manual) C:\Users\NAVADE~1\AppData\Local\Temp\tmp6vxmuhdw\files\sample.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmp6vxmuhdw\q\scan_352666d248\2cf24dba5fb0a30e_sample.txt (risk=0, original_removed=True)
+2026-10-02 19:15:16 | INFO     | app                          | Manual quarantine scan_352666d248: 1 quarantined, 0 failed
+2026-10-02 19:15:16 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp3qeb43fr\history.db
+2026-10-02 19:15:16 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpggdpxomq\history.db
+2026-10-02 19:15:16 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmprye4nemh\history.db
+2026-10-02 19:15:16 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp3v69luqt\history.db
+2026-10-02 19:15:17 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp5iohi1_5\history.db
+2026-10-02 19:15:17 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpy4tfg22r\history.db
+2026-10-02 19:15:17 | INFO     | scanners.quarantine          | Quarantined (auto) C:\Users\NAVADE~1\AppData\Local\Temp\tmpy4tfg22r\files\sample.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmpy4tfg22r\q\scan_t\2cf24dba5fb0a30e_sample.txt (risk=75, original_removed=True)
+2026-10-02 19:15:17 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpprc2mpog\history.db
+2026-10-02 19:15:17 | WARNING  | app                          | Could not auto-quarantine C:\Users\NAVADE~1\AppData\Local\Temp\tmpprc2mpog\Windows\System32\x.dll: x.dll is in a protected Windows system folder (C:\Users\Navadeep reddy\AppData\Local\Temp\tmpprc2mpog\Windows); moving it could stop Windows from working, so it was not quarantined.
+2026-10-02 19:15:18 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpapeez_00\history.db
+2026-10-02 19:15:18 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpx9zdecnj\history.db
+2026-10-02 19:15:18 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpbdwaahn8\history.db
+2026-10-02 19:15:18 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmps9ajdw2f\history.db
+2026-10-02 19:15:18 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpf3ae7q80\history.db
+2026-10-02 19:15:18 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp6y4_itng\history.db
+2026-10-02 19:15:18 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmppqrprhxy\history.db
+2026-10-02 19:15:19 | INFO     | scanners.quarantine          | Quarantined (manual) C:\Users\NAVADE~1\AppData\Local\Temp\tmppqrprhxy\files\sample.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmppqrprhxy\q\scan_01a1bf8887\2cf24dba5fb0a30e_sample.txt (risk=0, original_removed=True)
+2026-10-02 19:15:19 | INFO     | app                          | Manual quarantine scan_01a1bf8887: 1 quarantined, 0 failed
+2026-10-02 19:15:19 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp0akc6n2o\history.db
+2026-10-02 19:15:19 | INFO     | scanners.quarantine          | Quarantined (manual) C:\Users\NAVADE~1\AppData\Local\Temp\tmp0akc6n2o\files\notes.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmp0akc6n2o\q\scan_e466fe6a3d\b94f6f125c79e3a5_notes.txt (risk=0, original_removed=True)
+2026-10-02 19:15:19 | INFO     | app                          | Manual quarantine scan_e466fe6a3d: 1 quarantined, 0 failed
+2026-10-02 19:15:19 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpsezmeu1j\history.db
+2026-10-02 19:15:19 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpglewknd7\history.db
+2026-10-02 19:15:19 | INFO     | database                     | Migrated database: added quarantine.source
+2026-10-02 19:15:19 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpglewknd7\old.db
+2026-10-02 19:15:20 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp94ow7asi\history.db
+2026-10-02 19:15:20 | INFO     | scanners.quarantine          | Quarantined (manual) C:\Users\NAVADE~1\AppData\Local\Temp\tmp94ow7asi\files\a.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmp94ow7asi\q\scan_7319036d22\2cf24dba5fb0a30e_a.txt (risk=0, original_removed=True)
+2026-10-02 19:15:20 | INFO     | app                          | Manual quarantine scan_7319036d22: 1 quarantined, 2 failed
+2026-10-02 19:15:20 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp043714fw\history.db
+2026-10-02 19:15:20 | INFO     | scanners.quarantine          | Quarantined (manual) C:\Users\NAVADE~1\AppData\Local\Temp\tmp043714fw\files\sample.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmp043714fw\q\scan_e880cc69fc\2cf24dba5fb0a30e_sample.txt (risk=0, original_removed=True)
+2026-10-02 19:15:20 | INFO     | app                          | Manual quarantine scan_e880cc69fc: 1 quarantined, 0 failed
+2026-10-02 19:15:20 | WARNING  | scanners.quarantine          | Quarantine release protection is DISABLED in config (restore of item 1).
+2026-10-02 19:15:20 | INFO     | scanners.quarantine          | Restored quarantine item 1 to C:\Users\NAVADE~1\AppData\Local\Temp\tmp043714fw\files\sample.txt
+2026-10-02 19:15:20 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmprz_ldnpx\history.db
+2026-10-02 19:15:21 | INFO     | report_generator             | Forensic PDF report generated: C:\Users\NAVADE~1\AppData\Local\Temp\tmprz_ldnpx\reports\scan_a6cb7ac656_forensic_report.pdf
+2026-10-02 19:15:21 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp_esbxijz\history.db
+2026-10-02 19:15:22 | INFO     | report_generator             | Forensic PDF report generated: C:\Users\NAVADE~1\AppData\Local\Temp\tmp_esbxijz\reports\scan_stuck_forensic_report.pdf
+2026-10-02 19:15:22 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp_magpa75\history.db
+2026-10-02 19:15:22 | INFO     | scanners.quarantine          | Quarantined (auto) C:\Users\NAVADE~1\AppData\Local\Temp\tmp_magpa75\files\evil&co.exe -> C:\Users\NAVADE~1\AppData\Local\Temp\tmp_magpa75\q\scan_report\2cf24dba5fb0a30e_evil&co.exe (risk=80, original_removed=True)
+2026-10-02 19:15:22 | INFO     | report_generator             | Forensic PDF report generated: C:\Users\NAVADE~1\AppData\Local\Temp\tmp_magpa75\reports\scan_report_forensic_report.pdf
+2026-10-02 19:15:23 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpfvfkm93v\history.db
+2026-10-02 19:15:23 | INFO     | scanners.quarantine          | Quarantined (auto) C:\Users\NAVADE~1\AppData\Local\Temp\tmpfvfkm93v\files\evil.exe -> C:\Users\NAVADE~1\AppData\Local\Temp\tmpfvfkm93v\q\scan_report\2cf24dba5fb0a30e_evil.exe (risk=80, original_removed=True)
+2026-10-02 19:16:19 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp_ashzs93\history.db
+2026-10-02 19:16:19 | INFO     | scanners.quarantine          | Quarantined (manual) C:\Users\NAVADE~1\AppData\Local\Temp\tmp_ashzs93\files\sample.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmp_ashzs93\q\scan_a30c1398d3\2cf24dba5fb0a30e_sample.txt (risk=0, original_removed=True)
+2026-10-02 19:16:19 | INFO     | app                          | Manual quarantine scan_a30c1398d3: 1 quarantined, 0 failed
+2026-10-02 19:16:20 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpietor4mo\history.db
+2026-10-02 19:16:20 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpaxvxylrf\history.db
+2026-10-02 19:16:20 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp_o2gjbrk\history.db
+2026-10-02 19:16:20 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpzvagr8ak\history.db
+2026-10-02 19:16:20 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpr9bull47\history.db
+2026-10-02 19:16:21 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpl9huajfj\history.db
+2026-10-02 19:16:21 | INFO     | scanners.quarantine          | Quarantined (auto) C:\Users\NAVADE~1\AppData\Local\Temp\tmpl9huajfj\files\sample.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmpl9huajfj\q\scan_t\2cf24dba5fb0a30e_sample.txt (risk=75, original_removed=True)
+2026-10-02 19:16:21 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp60iwhgqc\history.db
+2026-10-02 19:16:21 | WARNING  | app                          | Could not auto-quarantine C:\Users\NAVADE~1\AppData\Local\Temp\tmp60iwhgqc\Windows\System32\x.dll: x.dll is in a protected Windows system folder (C:\Users\Navadeep reddy\AppData\Local\Temp\tmp60iwhgqc\Windows); moving it could stop Windows from working, so it was not quarantined.
+2026-10-02 19:16:21 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpr3veddft\history.db
+2026-10-02 19:16:21 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpl3som3ne\history.db
+2026-10-02 19:16:21 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpg542wep0\history.db
+2026-10-02 19:16:22 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp7b3k6jop\history.db
+2026-10-02 19:16:22 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpurvg5hfp\history.db
+2026-10-02 19:16:22 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp62ohzvu_\history.db
+2026-10-02 19:16:22 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpig08f2xm\history.db
+2026-10-02 19:16:22 | INFO     | scanners.quarantine          | Quarantined (manual) C:\Users\NAVADE~1\AppData\Local\Temp\tmpig08f2xm\files\sample.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmpig08f2xm\q\scan_01a9bbf0dd\2cf24dba5fb0a30e_sample.txt (risk=0, original_removed=True)
+2026-10-02 19:16:23 | INFO     | app                          | Manual quarantine scan_01a9bbf0dd: 1 quarantined, 0 failed
+2026-10-02 19:16:23 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpterrdw6j\history.db
+2026-10-02 19:16:23 | INFO     | scanners.quarantine          | Quarantined (manual) C:\Users\NAVADE~1\AppData\Local\Temp\tmpterrdw6j\files\notes.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmpterrdw6j\q\scan_a53da28f67\b94f6f125c79e3a5_notes.txt (risk=0, original_removed=True)
+2026-10-02 19:16:23 | INFO     | app                          | Manual quarantine scan_a53da28f67: 1 quarantined, 0 failed
+2026-10-02 19:16:23 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpe6gao_eo\history.db
+2026-10-02 19:16:23 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpv4ce7k7f\history.db
+2026-10-02 19:16:24 | INFO     | database                     | Migrated database: added quarantine.source
+2026-10-02 19:16:24 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpv4ce7k7f\old.db
+2026-10-02 19:16:24 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp_dav1ntg\history.db
+2026-10-02 19:16:24 | INFO     | scanners.quarantine          | Quarantined (manual) C:\Users\NAVADE~1\AppData\Local\Temp\tmp_dav1ntg\files\a.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmp_dav1ntg\q\scan_bbdb842b7d\2cf24dba5fb0a30e_a.txt (risk=0, original_removed=True)
+2026-10-02 19:16:24 | INFO     | app                          | Manual quarantine scan_bbdb842b7d: 1 quarantined, 2 failed
+2026-10-02 19:16:24 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp_ub7j0x6\history.db
+2026-10-02 19:16:24 | INFO     | scanners.quarantine          | Quarantined (manual) C:\Users\NAVADE~1\AppData\Local\Temp\tmp_ub7j0x6\files\sample.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmp_ub7j0x6\q\scan_e8044dcb29\2cf24dba5fb0a30e_sample.txt (risk=0, original_removed=True)
+2026-10-02 19:16:25 | INFO     | app                          | Manual quarantine scan_e8044dcb29: 1 quarantined, 0 failed
+2026-10-02 19:16:25 | WARNING  | scanners.quarantine          | Quarantine release protection is DISABLED in config (restore of item 1).
+2026-10-02 19:16:25 | INFO     | scanners.quarantine          | Restored quarantine item 1 to C:\Users\NAVADE~1\AppData\Local\Temp\tmp_ub7j0x6\files\sample.txt
+2026-10-02 19:16:25 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp8c3p8qeu\history.db
+2026-10-02 19:16:25 | INFO     | report_generator             | Forensic PDF report generated: C:\Users\NAVADE~1\AppData\Local\Temp\tmp8c3p8qeu\reports\scan_cb1f7e2307_forensic_report.pdf
+2026-10-02 19:16:25 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmptrqvvgy4\history.db
+2026-10-02 19:16:26 | INFO     | report_generator             | Forensic PDF report generated: C:\Users\NAVADE~1\AppData\Local\Temp\tmptrqvvgy4\reports\scan_stuck_forensic_report.pdf
+2026-10-02 19:16:26 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp8iuqymmy\history.db
+2026-10-02 19:16:26 | INFO     | scanners.quarantine          | Quarantined (auto) C:\Users\NAVADE~1\AppData\Local\Temp\tmp8iuqymmy\files\evil&co.exe -> C:\Users\NAVADE~1\AppData\Local\Temp\tmp8iuqymmy\q\scan_report\2cf24dba5fb0a30e_evil&co.exe (risk=80, original_removed=True)
+2026-10-02 19:16:26 | INFO     | report_generator             | Forensic PDF report generated: C:\Users\NAVADE~1\AppData\Local\Temp\tmp8iuqymmy\reports\scan_report_forensic_report.pdf
+2026-10-02 19:16:27 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpgx50gqdv\history.db
+2026-10-02 19:16:27 | INFO     | scanners.quarantine          | Quarantined (auto) C:\Users\NAVADE~1\AppData\Local\Temp\tmpgx50gqdv\files\evil.exe -> C:\Users\NAVADE~1\AppData\Local\Temp\tmpgx50gqdv\q\scan_report\2cf24dba5fb0a30e_evil.exe (risk=80, original_removed=True)
+2026-10-02 19:17:23 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpye0axp8f\history.db
+2026-10-02 19:17:23 | INFO     | scanners.quarantine          | Quarantined (manual) C:\Users\NAVADE~1\AppData\Local\Temp\tmpye0axp8f\files\sample.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmpye0axp8f\q\scan_ad8149c653\2cf24dba5fb0a30e_sample.txt (risk=0, original_removed=True)
+2026-10-02 19:17:23 | INFO     | app                          | Manual quarantine scan_ad8149c653: 1 quarantined, 0 failed
+2026-10-02 19:17:23 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmprt30f2g8\history.db
+2026-10-02 19:17:23 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpb68n6g8h\history.db
+2026-10-02 19:17:24 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp7eto2ky_\history.db
+2026-10-02 19:17:24 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpoj5x81jl\history.db
+2026-10-02 19:17:24 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpfz3kpk6y\history.db
+2026-10-02 19:17:24 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp7fu53_i2\history.db
+2026-10-02 19:17:24 | INFO     | scanners.quarantine          | Quarantined (auto) C:\Users\NAVADE~1\AppData\Local\Temp\tmp7fu53_i2\files\sample.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmp7fu53_i2\q\scan_t\2cf24dba5fb0a30e_sample.txt (risk=75, original_removed=True)
+2026-10-02 19:17:25 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpw91bqapm\history.db
+2026-10-02 19:17:25 | WARNING  | app                          | Could not auto-quarantine C:\Users\NAVADE~1\AppData\Local\Temp\tmpw91bqapm\Windows\System32\x.dll: x.dll is in a protected Windows system folder (C:\Users\Navadeep reddy\AppData\Local\Temp\tmpw91bqapm\Windows); moving it could stop Windows from working, so it was not quarantined.
+2026-10-02 19:17:25 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp93rk_odm\history.db
+2026-10-02 19:17:25 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp9lbzoaul\history.db
+2026-10-02 19:17:25 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp71msqknj\history.db
+2026-10-02 19:17:26 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpqpyzokr2\history.db
+2026-10-02 19:17:26 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp7sk05iyu\history.db
+2026-10-02 19:17:26 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp9irrdqnj\history.db
+2026-10-02 19:17:26 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpsb96838a\history.db
+2026-10-02 19:17:26 | INFO     | scanners.quarantine          | Quarantined (manual) C:\Users\NAVADE~1\AppData\Local\Temp\tmpsb96838a\files\sample.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmpsb96838a\q\scan_39b2c6c0ae\2cf24dba5fb0a30e_sample.txt (risk=0, original_removed=True)
+2026-10-02 19:17:27 | INFO     | app                          | Manual quarantine scan_39b2c6c0ae: 1 quarantined, 0 failed
+2026-10-02 19:17:27 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpvsbqi9dc\history.db
+2026-10-02 19:17:27 | INFO     | scanners.quarantine          | Quarantined (manual) C:\Users\NAVADE~1\AppData\Local\Temp\tmpvsbqi9dc\files\notes.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmpvsbqi9dc\q\scan_f69206d5aa\b94f6f125c79e3a5_notes.txt (risk=0, original_removed=True)
+2026-10-02 19:17:27 | INFO     | app                          | Manual quarantine scan_f69206d5aa: 1 quarantined, 0 failed
+2026-10-02 19:17:27 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp4arahvc9\history.db
+2026-10-02 19:17:27 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpt2vuznxw\history.db
+2026-10-02 19:17:28 | INFO     | database                     | Migrated database: added quarantine.source
+2026-10-02 19:17:28 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpt2vuznxw\old.db
+2026-10-02 19:17:28 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp4u16bzxi\history.db
+2026-10-02 19:17:28 | INFO     | scanners.quarantine          | Quarantined (manual) C:\Users\NAVADE~1\AppData\Local\Temp\tmp4u16bzxi\files\a.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmp4u16bzxi\q\scan_cd1d936fc7\2cf24dba5fb0a30e_a.txt (risk=0, original_removed=True)
+2026-10-02 19:17:28 | INFO     | app                          | Manual quarantine scan_cd1d936fc7: 1 quarantined, 2 failed
+2026-10-02 19:17:28 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp8vzf22su\history.db
+2026-10-02 19:17:28 | INFO     | scanners.quarantine          | Quarantined (manual) C:\Users\NAVADE~1\AppData\Local\Temp\tmp8vzf22su\files\sample.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmp8vzf22su\q\scan_12dbfcf9af\2cf24dba5fb0a30e_sample.txt (risk=0, original_removed=True)
+2026-10-02 19:17:28 | INFO     | app                          | Manual quarantine scan_12dbfcf9af: 1 quarantined, 0 failed
+2026-10-02 19:17:28 | WARNING  | scanners.quarantine          | Quarantine release protection is DISABLED in config (restore of item 1).
+2026-10-02 19:17:29 | INFO     | scanners.quarantine          | Restored quarantine item 1 to C:\Users\NAVADE~1\AppData\Local\Temp\tmp8vzf22su\files\sample.txt
+2026-10-02 19:17:29 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpbd0foyzn\history.db
+2026-10-02 19:17:29 | INFO     | report_generator             | Forensic PDF report generated: C:\Users\NAVADE~1\AppData\Local\Temp\tmpbd0foyzn\reports\scan_0b32c15e41_forensic_report.pdf
+2026-10-02 19:17:30 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpu66jl9i6\history.db
+2026-10-02 19:17:30 | INFO     | report_generator             | Forensic PDF report generated: C:\Users\NAVADE~1\AppData\Local\Temp\tmpu66jl9i6\reports\scan_stuck_forensic_report.pdf
+2026-10-02 19:17:30 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpf5s_hik4\history.db
+2026-10-02 19:17:30 | INFO     | scanners.quarantine          | Quarantined (auto) C:\Users\NAVADE~1\AppData\Local\Temp\tmpf5s_hik4\files\evil&co.exe -> C:\Users\NAVADE~1\AppData\Local\Temp\tmpf5s_hik4\q\scan_report\2cf24dba5fb0a30e_evil&co.exe (risk=80, original_removed=True)
+2026-10-02 19:17:30 | INFO     | report_generator             | Forensic PDF report generated: C:\Users\NAVADE~1\AppData\Local\Temp\tmpf5s_hik4\reports\scan_report_forensic_report.pdf
+2026-10-02 19:17:31 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp6bvtcx3p\history.db
+2026-10-02 19:17:31 | INFO     | scanners.quarantine          | Quarantined (auto) C:\Users\NAVADE~1\AppData\Local\Temp\tmp6bvtcx3p\files\evil.exe -> C:\Users\NAVADE~1\AppData\Local\Temp\tmp6bvtcx3p\q\scan_report\2cf24dba5fb0a30e_evil.exe (risk=80, original_removed=True)
+2026-10-02 19:18:25 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpfkz8p60n\history.db
+2026-10-02 19:18:25 | INFO     | scanners.quarantine          | Quarantined (manual) C:\Users\NAVADE~1\AppData\Local\Temp\tmpfkz8p60n\files\sample.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmpfkz8p60n\q\scan_04ab84b21a\2cf24dba5fb0a30e_sample.txt (risk=0, original_removed=True)
+2026-10-02 19:18:25 | INFO     | app                          | Manual quarantine scan_04ab84b21a: 1 quarantined, 0 failed
+2026-10-02 19:18:25 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpc3va43io\history.db
+2026-10-02 19:18:25 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpr228rgmj\history.db
+2026-10-02 19:18:26 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmplyhosi8_\history.db
+2026-10-02 19:18:26 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpmd3g0bsm\history.db
+2026-10-02 19:18:26 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpxm5z2c36\history.db
+2026-10-02 19:18:27 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp3pjdwl4c\history.db
+2026-10-02 19:18:27 | INFO     | scanners.quarantine          | Quarantined (auto) C:\Users\NAVADE~1\AppData\Local\Temp\tmp3pjdwl4c\files\sample.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmp3pjdwl4c\q\scan_t\2cf24dba5fb0a30e_sample.txt (risk=75, original_removed=True)
+2026-10-02 19:18:27 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpy4f3wrcb\history.db
+2026-10-02 19:18:27 | WARNING  | app                          | Could not auto-quarantine C:\Users\NAVADE~1\AppData\Local\Temp\tmpy4f3wrcb\Windows\System32\x.dll: x.dll is in a protected Windows system folder (C:\Users\Navadeep reddy\AppData\Local\Temp\tmpy4f3wrcb\Windows); moving it could stop Windows from working, so it was not quarantined.
+2026-10-02 19:18:27 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpqfufria0\history.db
+2026-10-02 19:18:27 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpgh1ym9ix\history.db
+2026-10-02 19:18:28 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp25l6tse8\history.db
+2026-10-02 19:18:29 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpg183o_p1\history.db
+2026-10-02 19:18:31 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpbc6yeef9\history.db
+2026-10-02 19:18:33 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp0kvfbvej\history.db
+2026-10-02 19:18:35 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpah03gy2h\history.db
+2026-10-02 19:18:37 | INFO     | scanners.quarantine          | Quarantined (manual) C:\Users\NAVADE~1\AppData\Local\Temp\tmpah03gy2h\files\sample.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmpah03gy2h\q\scan_e613b99a6e\2cf24dba5fb0a30e_sample.txt (risk=0, original_removed=True)
+2026-10-02 19:18:38 | INFO     | app                          | Manual quarantine scan_e613b99a6e: 1 quarantined, 0 failed
+2026-10-02 19:18:40 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpphu5aeez\history.db
+2026-10-02 19:18:40 | INFO     | scanners.quarantine          | Quarantined (manual) C:\Users\NAVADE~1\AppData\Local\Temp\tmpphu5aeez\files\notes.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmpphu5aeez\q\scan_ac56c59bcf\b94f6f125c79e3a5_notes.txt (risk=0, original_removed=True)
+2026-10-02 19:18:40 | INFO     | app                          | Manual quarantine scan_ac56c59bcf: 1 quarantined, 0 failed
+2026-10-02 19:18:40 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpubk3pwr5\history.db
+2026-10-02 19:18:41 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpvt6hj_f9\history.db
+2026-10-02 19:18:41 | INFO     | database                     | Migrated database: added quarantine.source
+2026-10-02 19:18:41 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpvt6hj_f9\old.db
+2026-10-02 19:18:41 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpmx7b0h4w\history.db
+2026-10-02 19:18:41 | INFO     | scanners.quarantine          | Quarantined (manual) C:\Users\NAVADE~1\AppData\Local\Temp\tmpmx7b0h4w\files\a.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmpmx7b0h4w\q\scan_281a0fabfa\2cf24dba5fb0a30e_a.txt (risk=0, original_removed=True)
+2026-10-02 19:18:41 | INFO     | app                          | Manual quarantine scan_281a0fabfa: 1 quarantined, 2 failed
+2026-10-02 19:18:41 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpq4af6bsg\history.db
+2026-10-02 19:18:42 | INFO     | scanners.quarantine          | Quarantined (manual) C:\Users\NAVADE~1\AppData\Local\Temp\tmpq4af6bsg\files\sample.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmpq4af6bsg\q\scan_4bcbaa7913\2cf24dba5fb0a30e_sample.txt (risk=0, original_removed=True)
+2026-10-02 19:18:42 | INFO     | app                          | Manual quarantine scan_4bcbaa7913: 1 quarantined, 0 failed
+2026-10-02 19:18:42 | WARNING  | scanners.quarantine          | Quarantine release protection is DISABLED in config (restore of item 1).
+2026-10-02 19:18:42 | INFO     | scanners.quarantine          | Restored quarantine item 1 to C:\Users\NAVADE~1\AppData\Local\Temp\tmpq4af6bsg\files\sample.txt
+2026-10-02 19:18:42 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpa8kosjbj\history.db
+2026-10-02 19:18:42 | INFO     | report_generator             | Forensic PDF report generated: C:\Users\NAVADE~1\AppData\Local\Temp\tmpa8kosjbj\reports\scan_5fefc02d17_forensic_report.pdf
+2026-10-02 19:18:43 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpw_w_6gzx\history.db
+2026-10-02 19:18:43 | INFO     | report_generator             | Forensic PDF report generated: C:\Users\NAVADE~1\AppData\Local\Temp\tmpw_w_6gzx\reports\scan_stuck_forensic_report.pdf
+2026-10-02 19:18:43 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp0dseye20\history.db
+2026-10-02 19:18:44 | INFO     | scanners.quarantine          | Quarantined (auto) C:\Users\NAVADE~1\AppData\Local\Temp\tmp0dseye20\files\evil&co.exe -> C:\Users\NAVADE~1\AppData\Local\Temp\tmp0dseye20\q\scan_report\2cf24dba5fb0a30e_evil&co.exe (risk=80, original_removed=True)
+2026-10-02 19:18:44 | INFO     | report_generator             | Forensic PDF report generated: C:\Users\NAVADE~1\AppData\Local\Temp\tmp0dseye20\reports\scan_report_forensic_report.pdf
+2026-10-02 19:18:44 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpthfml45w\history.db
+2026-10-02 19:18:44 | INFO     | scanners.quarantine          | Quarantined (auto) C:\Users\NAVADE~1\AppData\Local\Temp\tmpthfml45w\files\evil.exe -> C:\Users\NAVADE~1\AppData\Local\Temp\tmpthfml45w\q\scan_report\2cf24dba5fb0a30e_evil.exe (risk=80, original_removed=True)
+2026-10-02 19:19:19 | WARNING  | scanners.hid_guard           | ROGUE HID DEVICE VID_1&PID_2 flagged (burst, ~120000 WPM, 10 keys)
+2026-10-02 19:19:19 | WARNING  | scanners.hid_guard           | ROGUE HID DEVICE VID_1&PID_2 flagged (burst, ~120000 WPM, 10 keys)
+2026-10-02 19:19:19 | WARNING  | scanners.hid_guard           | ROGUE HID DEVICE VID_1&PID_2 flagged (known_bad_device, ~0 WPM, 0 keys)
+2026-10-02 19:19:19 | WARNING  | scanners.hid_guard           | ROGUE HID DEVICE VID_1&PID_2 flagged (burst, ~120000 WPM, 10 keys)
+2026-10-02 19:19:19 | WARNING  | scanners.quarantine          | Quarantine delete of item 7 DENIED (cancelled)
+2026-10-02 19:19:19 | INFO     | scanners.quarantine          | Quarantine delete of item 7 authorized by Windows account verification
+2026-10-02 19:19:19 | INFO     | scanners.quarantine          | Permanently deleted quarantine item 7 (C:\Users\NAVADE~1\AppData\Local\Temp\tmp6b4di1v7\abc_evil.exe)
+2026-10-02 19:19:19 | WARNING  | scanners.quarantine          | Quarantine export of item 7 DENIED (ok)
+2026-10-02 19:19:19 | INFO     | scanners.quarantine          | Quarantine restore of item 7 authorized by Windows account verification
+2026-10-02 19:19:19 | INFO     | scanners.quarantine          | Restored quarantine item 7 to C:\Users\NAVADE~1\AppData\Local\Temp\tmpnzy90woh\orig\evil.exe
+2026-10-02 19:19:19 | WARNING  | scanners.quarantine          | Quarantine restore of item 7 DENIED (failed)
+2026-10-02 19:19:19 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpkkbc5r9n\history.db
+2026-10-02 19:19:19 | INFO     | scanners.quarantine          | Quarantined (manual) C:\Users\NAVADE~1\AppData\Local\Temp\tmpkkbc5r9n\files\sample.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmpkkbc5r9n\q\scan_c27a7783d5\2cf24dba5fb0a30e_sample.txt (risk=0, original_removed=True)
+2026-10-02 19:19:19 | INFO     | app                          | Manual quarantine scan_c27a7783d5: 1 quarantined, 0 failed
+2026-10-02 19:19:19 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp760rqfp7\history.db
+2026-10-02 19:19:20 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpisg34qwd\history.db
+2026-10-02 19:19:20 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp61myyv_i\history.db
+2026-10-02 19:19:20 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpytwmxnmw\history.db
+2026-10-02 19:19:20 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp7hcp6rky\history.db
+2026-10-02 19:19:20 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp5jxtdkc0\history.db
+2026-10-02 19:19:20 | INFO     | scanners.quarantine          | Quarantined (auto) C:\Users\NAVADE~1\AppData\Local\Temp\tmp5jxtdkc0\files\sample.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmp5jxtdkc0\q\scan_t\2cf24dba5fb0a30e_sample.txt (risk=75, original_removed=True)
+2026-10-02 19:19:21 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp40mdc5u0\history.db
+2026-10-02 19:19:21 | WARNING  | app                          | Could not auto-quarantine C:\Users\NAVADE~1\AppData\Local\Temp\tmp40mdc5u0\Windows\System32\x.dll: x.dll is in a protected Windows system folder (C:\Users\Navadeep reddy\AppData\Local\Temp\tmp40mdc5u0\Windows); moving it could stop Windows from working, so it was not quarantined.
+2026-10-02 19:19:21 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpvl065604\history.db
+2026-10-02 19:19:21 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp_ucx897j\history.db
+2026-10-02 19:19:21 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpbpnp5udl\history.db
+2026-10-02 19:19:21 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpd4kwbtzg\history.db
+2026-10-02 19:19:22 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmplr8qtrcj\history.db
+2026-10-02 19:19:22 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpand3k5ev\history.db
+2026-10-02 19:19:22 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpuu9bjqv7\history.db
+2026-10-02 19:19:22 | INFO     | scanners.quarantine          | Quarantined (manual) C:\Users\NAVADE~1\AppData\Local\Temp\tmpuu9bjqv7\files\sample.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmpuu9bjqv7\q\scan_7b3b7223d6\2cf24dba5fb0a30e_sample.txt (risk=0, original_removed=True)
+2026-10-02 19:19:22 | INFO     | app                          | Manual quarantine scan_7b3b7223d6: 1 quarantined, 0 failed
+2026-10-02 19:19:23 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp4drpdv8h\history.db
+2026-10-02 19:19:23 | INFO     | scanners.quarantine          | Quarantined (manual) C:\Users\NAVADE~1\AppData\Local\Temp\tmp4drpdv8h\files\notes.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmp4drpdv8h\q\scan_d10d4abfae\b94f6f125c79e3a5_notes.txt (risk=0, original_removed=True)
+2026-10-02 19:19:23 | INFO     | app                          | Manual quarantine scan_d10d4abfae: 1 quarantined, 0 failed
+2026-10-02 19:19:23 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpcoxpnnz_\history.db
+2026-10-02 19:19:23 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpdgw8o_u3\history.db
+2026-10-02 19:19:24 | INFO     | database                     | Migrated database: added quarantine.source
+2026-10-02 19:19:24 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpdgw8o_u3\old.db
+2026-10-02 19:19:24 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpiehbhwrq\history.db
+2026-10-02 19:19:24 | INFO     | scanners.quarantine          | Quarantined (manual) C:\Users\NAVADE~1\AppData\Local\Temp\tmpiehbhwrq\files\a.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmpiehbhwrq\q\scan_038697b661\2cf24dba5fb0a30e_a.txt (risk=0, original_removed=True)
+2026-10-02 19:19:24 | INFO     | app                          | Manual quarantine scan_038697b661: 1 quarantined, 2 failed
+2026-10-02 19:19:24 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpwp_l_mrs\history.db
+2026-10-02 19:19:24 | INFO     | scanners.quarantine          | Quarantined (manual) C:\Users\NAVADE~1\AppData\Local\Temp\tmpwp_l_mrs\files\sample.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmpwp_l_mrs\q\scan_25fce5bbbf\2cf24dba5fb0a30e_sample.txt (risk=0, original_removed=True)
+2026-10-02 19:19:24 | INFO     | app                          | Manual quarantine scan_25fce5bbbf: 1 quarantined, 0 failed
+2026-10-02 19:19:24 | WARNING  | scanners.quarantine          | Quarantine release protection is DISABLED in config (restore of item 1).
+2026-10-02 19:19:25 | INFO     | scanners.quarantine          | Restored quarantine item 1 to C:\Users\NAVADE~1\AppData\Local\Temp\tmpwp_l_mrs\files\sample.txt
+2026-10-02 19:19:25 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp6496h74i\history.db
+2026-10-02 19:19:25 | INFO     | report_generator             | Forensic PDF report generated: C:\Users\NAVADE~1\AppData\Local\Temp\tmp6496h74i\reports\scan_43a7534dea_forensic_report.pdf
+2026-10-02 19:19:26 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpaxci6ga5\history.db
+2026-10-02 19:19:26 | INFO     | report_generator             | Forensic PDF report generated: C:\Users\NAVADE~1\AppData\Local\Temp\tmpaxci6ga5\reports\scan_stuck_forensic_report.pdf
+2026-10-02 19:19:26 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp3bu1404x\history.db
+2026-10-02 19:19:26 | INFO     | scanners.quarantine          | Quarantined (auto) C:\Users\NAVADE~1\AppData\Local\Temp\tmp3bu1404x\files\evil&co.exe -> C:\Users\NAVADE~1\AppData\Local\Temp\tmp3bu1404x\q\scan_report\2cf24dba5fb0a30e_evil&co.exe (risk=80, original_removed=True)
+2026-10-02 19:19:27 | INFO     | report_generator             | Forensic PDF report generated: C:\Users\NAVADE~1\AppData\Local\Temp\tmp3bu1404x\reports\scan_report_forensic_report.pdf
+2026-10-02 19:19:27 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp8d20qsdc\history.db
+2026-10-02 19:19:27 | INFO     | scanners.quarantine          | Quarantined (auto) C:\Users\NAVADE~1\AppData\Local\Temp\tmp8d20qsdc\files\evil.exe -> C:\Users\NAVADE~1\AppData\Local\Temp\tmp8d20qsdc\q\scan_report\2cf24dba5fb0a30e_evil.exe (risk=80, original_removed=True)
+2026-10-02 19:19:28 | INFO     | scanners.signature_verifier  | Loaded 0 trust anchor(s) from the Windows store
+2026-10-02 19:19:28 | INFO     | scanners.signature_verifier  | Certificate whitelist: 1 certificate(s) from 1 file(s)
+2026-10-02 19:19:28 | INFO     | scanners.signature_verifier  | Loaded 0 trust anchor(s) from the Windows store
+2026-10-02 19:19:28 | WARNING  | scanners.signature_verifier  | Skipping unreadable certificate junk.crt: error parsing asn1 value: ParseError { kind: ShortData { needed: 103 } }
+2026-10-02 19:19:28 | INFO     | scanners.signature_verifier  | Certificate whitelist: 1 certificate(s) from 2 file(s)
+2026-10-02 19:19:28 | INFO     | scanners.signature_verifier  | Loaded 0 trust anchor(s) from the Windows store
+2026-10-02 19:19:28 | INFO     | scanners.signature_verifier  | Certificate whitelist: 1 certificate(s) from 1 file(s)
+2026-10-02 19:19:28 | INFO     | scanners.signature_verifier  | Loaded 0 trust anchor(s) from the Windows store
+2026-10-02 19:19:28 | INFO     | scanners.signature_verifier  | Certificate whitelist: 1 certificate(s) from 1 file(s)
+2026-10-02 19:19:28 | INFO     | scanners.signature_verifier  | Loaded 0 trust anchor(s) from the Windows store
+2026-10-02 19:19:28 | INFO     | scanners.signature_verifier  | Certificate whitelist: 0 certificate(s) from 0 file(s)
+2026-10-02 19:19:28 | INFO     | scanners.signature_verifier  | Loaded 0 trust anchor(s) from the Windows store
+2026-10-02 19:19:28 | INFO     | scanners.signature_verifier  | Certificate whitelist: 0 certificate(s) from 0 file(s)
+2026-10-02 19:19:28 | INFO     | scanners.signature_verifier  | Certificate whitelist: 1 certificate(s) from 1 file(s)
+2026-10-02 19:19:28 | INFO     | scanners.signature_verifier  | Loaded 1 trust anchor(s) from the Windows store
+2026-10-02 19:19:28 | INFO     | scanners.signature_verifier  | Certificate whitelist: 0 certificate(s) from 0 file(s)
+2026-10-02 19:20:22 | INFO     | database                     | Database initialized at C:\Users\Navadeep reddy\OneDrive\Desktop\nrk\USB_Threat_Analyzer\history\history.db
+2026-10-02 19:20:22 | INFO     | scanners.usb_monitor         | USB monitor started (baseline: 0 removable drive(s))
+2026-10-02 19:20:22 | INFO     | scanners.hid_guard           | HID guard running (1 baseline keyboard(s), threshold 100 WPM)
+2026-10-02 19:20:22 | INFO     | __main__                     | USB Threat Analyzer starting on http://127.0.0.1:5000
+2026-10-02 19:20:22 | INFO     | werkzeug                     | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-10-02 19:20:22 | INFO     | werkzeug                     | [33mPress CTRL+C to quit[0m
+2026-10-02 19:20:44 | INFO     | werkzeug                     | 127.0.0.1 - - [02/Oct/2026 19:20:44] "GET / HTTP/1.1" 200 -
+2026-10-02 19:20:57 | INFO     | sandbox.sandbox_manager      | Sandbox detection: {'windows_sandbox': False, 'vmware': False, 'virtualbox': False}
+2026-10-02 19:20:57 | INFO     | werkzeug                     | 127.0.0.1 - - [02/Oct/2026 19:20:57] "GET /api/sandbox/available HTTP/1.1" 200 -
+2026-10-02 19:21:24 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpk3rsdz1y\history.db
+2026-10-02 19:21:24 | INFO     | scanners.quarantine          | Quarantined (manual) C:\Users\NAVADE~1\AppData\Local\Temp\tmpk3rsdz1y\files\sample.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmpk3rsdz1y\q\scan_8186b7fb58\2cf24dba5fb0a30e_sample.txt (risk=0, original_removed=True)
+2026-10-02 19:21:24 | INFO     | app                          | Manual quarantine scan_8186b7fb58: 1 quarantined, 0 failed
+2026-10-02 19:21:25 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpz_2nqert\history.db
+2026-10-02 19:21:25 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp8clzp63x\history.db
+2026-10-02 19:21:25 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpl31my1j0\history.db
+2026-10-02 19:21:25 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmplxqd34xl\history.db
+2026-10-02 19:21:25 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpz_fya1zd\history.db
+2026-10-02 19:21:26 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpxmccmlfz\history.db
+2026-10-02 19:21:26 | INFO     | scanners.quarantine          | Quarantined (auto) C:\Users\NAVADE~1\AppData\Local\Temp\tmpxmccmlfz\files\sample.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmpxmccmlfz\q\scan_t\2cf24dba5fb0a30e_sample.txt (risk=75, original_removed=True)
+2026-10-02 19:21:26 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmplb82124y\history.db
+2026-10-02 19:21:26 | WARNING  | app                          | Could not auto-quarantine C:\Users\NAVADE~1\AppData\Local\Temp\tmplb82124y\Windows\System32\x.dll: x.dll is in a protected Windows system folder (C:\Users\Navadeep reddy\AppData\Local\Temp\tmplb82124y\Windows); moving it could stop Windows from working, so it was not quarantined.
+2026-10-02 19:21:26 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpev3bfn30\history.db
+2026-10-02 19:21:26 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpiefgmcs8\history.db
+2026-10-02 19:21:26 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpi69c_flz\history.db
+2026-10-02 19:21:27 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpc7wmm_ed\history.db
+2026-10-02 19:21:27 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpeqz14ubv\history.db
+2026-10-02 19:21:27 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp54awwol7\history.db
+2026-10-02 19:21:27 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp4oepnw7g\history.db
+2026-10-02 19:21:27 | INFO     | scanners.quarantine          | Quarantined (manual) C:\Users\NAVADE~1\AppData\Local\Temp\tmp4oepnw7g\files\sample.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmp4oepnw7g\q\scan_fc2467072c\2cf24dba5fb0a30e_sample.txt (risk=0, original_removed=True)
+2026-10-02 19:21:27 | INFO     | app                          | Manual quarantine scan_fc2467072c: 1 quarantined, 0 failed
+2026-10-02 19:21:28 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpah61i52a\history.db
+2026-10-02 19:21:28 | INFO     | scanners.quarantine          | Quarantined (manual) C:\Users\NAVADE~1\AppData\Local\Temp\tmpah61i52a\files\notes.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmpah61i52a\q\scan_18698385c6\b94f6f125c79e3a5_notes.txt (risk=0, original_removed=True)
+2026-10-02 19:21:28 | INFO     | app                          | Manual quarantine scan_18698385c6: 1 quarantined, 0 failed
+2026-10-02 19:21:28 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpw6yoibq3\history.db
+2026-10-02 19:21:28 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpoly25l4w\history.db
+2026-10-02 19:21:28 | INFO     | database                     | Migrated database: added quarantine.source
+2026-10-02 19:21:28 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpoly25l4w\old.db
+2026-10-02 19:21:29 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpvr7oujvv\history.db
+2026-10-02 19:21:29 | INFO     | scanners.quarantine          | Quarantined (manual) C:\Users\NAVADE~1\AppData\Local\Temp\tmpvr7oujvv\files\a.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmpvr7oujvv\q\scan_b6559adbe3\2cf24dba5fb0a30e_a.txt (risk=0, original_removed=True)
+2026-10-02 19:21:29 | INFO     | app                          | Manual quarantine scan_b6559adbe3: 1 quarantined, 2 failed
+2026-10-02 19:21:29 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmphni9066d\history.db
+2026-10-02 19:21:29 | INFO     | scanners.quarantine          | Quarantined (manual) C:\Users\NAVADE~1\AppData\Local\Temp\tmphni9066d\files\sample.txt -> C:\Users\NAVADE~1\AppData\Local\Temp\tmphni9066d\q\scan_b5b74a39c8\2cf24dba5fb0a30e_sample.txt (risk=0, original_removed=True)
+2026-10-02 19:21:29 | INFO     | app                          | Manual quarantine scan_b5b74a39c8: 1 quarantined, 0 failed
+2026-10-02 19:21:29 | WARNING  | scanners.quarantine          | Quarantine release protection is DISABLED in config (restore of item 1).
+2026-10-02 19:21:29 | INFO     | scanners.quarantine          | Restored quarantine item 1 to C:\Users\NAVADE~1\AppData\Local\Temp\tmphni9066d\files\sample.txt
+2026-10-02 19:21:29 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpvempihf1\history.db
+2026-10-02 19:21:30 | INFO     | report_generator             | Forensic PDF report generated: C:\Users\NAVADE~1\AppData\Local\Temp\tmpvempihf1\reports\scan_46fcf812e2_forensic_report.pdf
+2026-10-02 19:21:30 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpbpnuxaby\history.db
+2026-10-02 19:21:30 | INFO     | report_generator             | Forensic PDF report generated: C:\Users\NAVADE~1\AppData\Local\Temp\tmpbpnuxaby\reports\scan_stuck_forensic_report.pdf
+2026-10-02 19:21:31 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmp5pygog9t\history.db
+2026-10-02 19:21:31 | INFO     | scanners.quarantine          | Quarantined (auto) C:\Users\NAVADE~1\AppData\Local\Temp\tmp5pygog9t\files\evil&co.exe -> C:\Users\NAVADE~1\AppData\Local\Temp\tmp5pygog9t\q\scan_report\2cf24dba5fb0a30e_evil&co.exe (risk=80, original_removed=True)
+2026-10-02 19:21:31 | INFO     | report_generator             | Forensic PDF report generated: C:\Users\NAVADE~1\AppData\Local\Temp\tmp5pygog9t\reports\scan_report_forensic_report.pdf
+2026-10-02 19:21:31 | INFO     | database                     | Database initialized at C:\Users\NAVADE~1\AppData\Local\Temp\tmpa972ga9w\history.db
+2026-10-02 19:21:31 | INFO     | scanners.quarantine          | Quarantined (auto) C:\Users\NAVADE~1\AppData\Local\Temp\tmpa972ga9w\files\evil.exe -> C:\Users\NAVADE~1\AppData\Local\Temp\tmpa972ga9w\q\scan_report\2cf24dba5fb0a30e_evil.exe (risk=80, original_removed=True)
+2026-10-02 19:21:54 | INFO     | database                     | Database initialized at C:\Users\Navadeep reddy\OneDrive\Desktop\nrk\USB_Threat_Analyzer\history\history.db
+2026-10-02 19:21:54 | INFO     | scanners.usb_monitor         | USB monitor started (baseline: 0 removable drive(s))
+2026-10-02 19:21:54 | INFO     | scanners.hid_guard           | HID guard running (1 baseline keyboard(s), threshold 100 WPM)
+2026-10-02 19:21:54 | INFO     | __main__                     | USB Threat Analyzer starting on http://127.0.0.1:5000
+2026-10-02 19:21:54 | INFO     | werkzeug                     | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-10-02 19:21:54 | INFO     | werkzeug                     | [33mPress CTRL+C to quit[0m
+2026-10-02 19:22:14 | INFO     | werkzeug                     | 127.0.0.1 - - [02/Oct/2026 19:22:14] "GET / HTTP/1.1" 200 -
+2026-10-02 18:18:47 | WARNING  | sandbox.vmware               | VMware baseline snapshot 'clean_baseline' does not exist for /tmp/tmpch213i4g/analysis.vmx; creating it from the VM's current state.
+2026-10-03 17:36:14 | WARNING  | scanners.hid_guard           | ROGUE HID DEVICE VID_1&PID_2 flagged (burst, ~120000 WPM, 10 keys)
+2026-10-03 17:36:14 | WARNING  | scanners.hid_guard           | ROGUE HID DEVICE VID_1&PID_2 flagged (burst, ~120000 WPM, 10 keys)
+2026-10-03 17:36:14 | WARNING  | scanners.hid_guard           | ROGUE HID DEVICE VID_1&PID_2 flagged (known_bad_device, ~0 WPM, 0 keys)
+2026-10-03 17:36:14 | WARNING  | scanners.hid_guard           | ROGUE HID DEVICE VID_1&PID_2 flagged (burst, ~120000 WPM, 10 keys)
+2026-10-03 17:36:14 | WARNING  | scanners.quarantine          | Quarantine delete of item 7 DENIED (cancelled)
+2026-10-03 17:36:14 | INFO     | scanners.quarantine          | Quarantine delete of item 7 authorized by Windows account verification
+2026-10-03 17:36:14 | INFO     | scanners.quarantine          | Permanently deleted quarantine item 7 (/tmp/tmpo8c97deo/abc_evil.exe)
+2026-10-03 17:36:14 | WARNING  | scanners.quarantine          | Quarantine export of item 7 DENIED (ok)
+2026-10-03 17:36:14 | INFO     | scanners.quarantine          | Quarantine restore of item 7 authorized by Windows account verification
+2026-10-03 17:36:14 | INFO     | scanners.quarantine          | Restored quarantine item 7 to /tmp/tmpuwg1x7eu/orig/evil.exe
+2026-10-03 17:36:14 | WARNING  | scanners.quarantine          | Quarantine restore of item 7 DENIED (failed)
+2026-10-03 17:36:14 | INFO     | database                     | Database initialized at /tmp/tmpbvchueb8/history.db
+2026-10-03 17:36:14 | DEBUG    | utils.mime                   | python-magic/libmagic unavailable; MIME detection degraded for /tmp/tmpbvchueb8/files/sample.txt
+2026-10-03 17:36:14 | DEBUG    | utils.mime                   | python-magic/libmagic unavailable; MIME detection degraded for /tmp/tmpbvchueb8/files/sample.txt
+2026-10-03 17:36:14 | INFO     | scanners.quarantine          | Quarantined (manual) /tmp/tmpbvchueb8/files/sample.txt -> /tmp/tmpbvchueb8/q/scan_1f7d823748/2cf24dba5fb0a30e_sample.txt (risk=0, original_removed=True)
+2026-10-03 17:36:14 | INFO     | app                          | Manual quarantine scan_1f7d823748: 1 quarantined, 0 failed
+2026-10-03 17:36:14 | INFO     | database                     | Database initialized at /tmp/tmpf5xa9yoy/history.db
+2026-10-03 17:36:14 | INFO     | database                     | Database initialized at /tmp/tmpsvc0gpw8/history.db
+2026-10-03 17:36:14 | INFO     | database                     | Database initialized at /tmp/tmp3nv9e50e/history.db
+2026-10-03 17:36:14 | INFO     | database                     | Database initialized at /tmp/tmpemxceegl/history.db
+2026-10-03 17:36:14 | INFO     | database                     | Database initialized at /tmp/tmplpda8lu5/history.db
+2026-10-03 17:36:14 | INFO     | database                     | Database initialized at /tmp/tmpb6c8pbd9/history.db
+2026-10-03 17:36:14 | INFO     | scanners.quarantine          | Quarantined (auto) /tmp/tmpb6c8pbd9/files/sample.txt -> /tmp/tmpb6c8pbd9/q/scan_t/2cf24dba5fb0a30e_sample.txt (risk=75, original_removed=True)
+2026-10-03 17:36:14 | INFO     | database                     | Database initialized at /tmp/tmpveh7_f4l/history.db
+2026-10-03 17:36:14 | WARNING  | app                          | Could not auto-quarantine /tmp/tmpveh7_f4l/Windows/System32/x.dll: x.dll is in a protected Windows system folder (/tmp/tmpveh7_f4l/Windows); moving it could stop Windows from working, so it was not quarantined.
+2026-10-03 17:36:14 | INFO     | database                     | Database initialized at /tmp/tmpb5l3va33/history.db
+2026-10-03 17:36:14 | INFO     | database                     | Database initialized at /tmp/tmp_auychak/history.db
+2026-10-03 17:36:14 | INFO     | database                     | Database initialized at /tmp/tmpt6cmm2lc/history.db
+2026-10-03 17:36:14 | INFO     | database                     | Database initialized at /tmp/tmphw69rju0/history.db
+2026-10-03 17:36:14 | INFO     | database                     | Database initialized at /tmp/tmp1alvplg1/history.db
+2026-10-03 17:36:14 | INFO     | database                     | Database initialized at /tmp/tmpep38dy6s/history.db
+2026-10-03 17:36:14 | INFO     | database                     | Database initialized at /tmp/tmppniazv4k/history.db
+2026-10-03 17:36:14 | DEBUG    | utils.mime                   | python-magic/libmagic unavailable; MIME detection degraded for /tmp/tmppniazv4k/files/sample.txt
+2026-10-03 17:36:14 | DEBUG    | utils.mime                   | python-magic/libmagic unavailable; MIME detection degraded for /tmp/tmppniazv4k/files/sample.txt
+2026-10-03 17:36:14 | INFO     | scanners.quarantine          | Quarantined (manual) /tmp/tmppniazv4k/files/sample.txt -> /tmp/tmppniazv4k/q/scan_bf52017e46/2cf24dba5fb0a30e_sample.txt (risk=0, original_removed=True)
+2026-10-03 17:36:14 | INFO     | app                          | Manual quarantine scan_bf52017e46: 1 quarantined, 0 failed
+2026-10-03 17:36:14 | INFO     | database                     | Database initialized at /tmp/tmpemhyek0e/history.db
+2026-10-03 17:36:14 | DEBUG    | utils.mime                   | python-magic/libmagic unavailable; MIME detection degraded for /tmp/tmpemhyek0e/files/notes.txt
+2026-10-03 17:36:14 | DEBUG    | utils.mime                   | python-magic/libmagic unavailable; MIME detection degraded for /tmp/tmpemhyek0e/files/notes.txt
+2026-10-03 17:36:14 | INFO     | scanners.quarantine          | Quarantined (manual) /tmp/tmpemhyek0e/files/notes.txt -> /tmp/tmpemhyek0e/q/scan_f79634236b/b94f6f125c79e3a5_notes.txt (risk=0, original_removed=True)
+2026-10-03 17:36:14 | INFO     | app                          | Manual quarantine scan_f79634236b: 1 quarantined, 0 failed
+2026-10-03 17:36:14 | INFO     | database                     | Database initialized at /tmp/tmpl5y4qxbo/history.db
+2026-10-03 17:36:14 | INFO     | database                     | Database initialized at /tmp/tmpq9p8movu/history.db
+2026-10-03 17:36:14 | INFO     | database                     | Migrated database: added quarantine.source
+2026-10-03 17:36:14 | INFO     | database                     | Database initialized at /tmp/tmpq9p8movu/old.db
+2026-10-03 17:36:14 | INFO     | database                     | Database initialized at /tmp/tmpb1dac0eb/history.db
+2026-10-03 17:36:14 | DEBUG    | utils.mime                   | python-magic/libmagic unavailable; MIME detection degraded for /tmp/tmpb1dac0eb/files/a.txt
+2026-10-03 17:36:14 | DEBUG    | utils.mime                   | python-magic/libmagic unavailable; MIME detection degraded for /tmp/tmpb1dac0eb/files/a.txt
+2026-10-03 17:36:14 | INFO     | scanners.quarantine          | Quarantined (manual) /tmp/tmpb1dac0eb/files/a.txt -> /tmp/tmpb1dac0eb/q/scan_8e25a0b3db/2cf24dba5fb0a30e_a.txt (risk=0, original_removed=True)
+2026-10-03 17:36:14 | INFO     | app                          | Manual quarantine scan_8e25a0b3db: 1 quarantined, 2 failed
+2026-10-03 17:36:14 | INFO     | database                     | Database initialized at /tmp/tmpiqxmfdv7/history.db
+2026-10-03 17:36:14 | DEBUG    | utils.mime                   | python-magic/libmagic unavailable; MIME detection degraded for /tmp/tmpiqxmfdv7/files/sample.txt
+2026-10-03 17:36:14 | DEBUG    | utils.mime                   | python-magic/libmagic unavailable; MIME detection degraded for /tmp/tmpiqxmfdv7/files/sample.txt
+2026-10-03 17:36:14 | INFO     | scanners.quarantine          | Quarantined (manual) /tmp/tmpiqxmfdv7/files/sample.txt -> /tmp/tmpiqxmfdv7/q/scan_8962c45a6d/2cf24dba5fb0a30e_sample.txt (risk=0, original_removed=True)
+2026-10-03 17:36:14 | INFO     | app                          | Manual quarantine scan_8962c45a6d: 1 quarantined, 0 failed
+2026-10-03 17:36:14 | WARNING  | scanners.quarantine          | Quarantine release protection is DISABLED in config (restore of item 1).
+2026-10-03 17:36:14 | INFO     | scanners.quarantine          | Restored quarantine item 1 to /tmp/tmpiqxmfdv7/files/sample.txt
+2026-10-03 17:36:14 | INFO     | database                     | Database initialized at /tmp/tmpd_gfdvtb/history.db
+2026-10-03 17:36:14 | INFO     | report_generator             | Forensic PDF report generated: /tmp/tmpd_gfdvtb/reports/scan_9f1171e594_forensic_report.pdf
+2026-10-03 17:36:14 | INFO     | database                     | Database initialized at /tmp/tmp5grbjoiu/history.db
+2026-10-03 17:36:14 | INFO     | report_generator             | Forensic PDF report generated: /tmp/tmp5grbjoiu/reports/scan_stuck_forensic_report.pdf
+2026-10-03 17:36:14 | INFO     | database                     | Database initialized at /tmp/tmpeajy8q91/history.db
+2026-10-03 17:36:14 | INFO     | scanners.quarantine          | Quarantined (auto) /tmp/tmpeajy8q91/files/evil&co.exe -> /tmp/tmpeajy8q91/q/scan_report/2cf24dba5fb0a30e_evil&co.exe (risk=80, original_removed=True)
+2026-10-03 17:36:14 | INFO     | report_generator             | Forensic PDF report generated: /tmp/tmpeajy8q91/reports/scan_report_forensic_report.pdf
+2026-10-03 17:36:14 | INFO     | database                     | Database initialized at /tmp/tmp9oews9a_/history.db
+2026-10-03 17:36:14 | INFO     | scanners.quarantine          | Quarantined (auto) /tmp/tmp9oews9a_/files/evil.exe -> /tmp/tmp9oews9a_/q/scan_report/2cf24dba5fb0a30e_evil.exe (risk=80, original_removed=True)
+2026-10-03 17:36:15 | INFO     | scanners.signature_verifier  | Loaded 0 trust anchor(s) from the Windows store
+2026-10-03 17:36:15 | INFO     | scanners.signature_verifier  | Certificate whitelist: 1 certificate(s) from 1 file(s)
+2026-10-03 17:36:15 | INFO     | scanners.signature_verifier  | Loaded 0 trust anchor(s) from the Windows store
+2026-10-03 17:36:15 | WARNING  | scanners.signature_verifier  | Skipping unreadable certificate junk.crt: error parsing asn1 value: ParseError { kind: ShortData { needed: 103 } }
+2026-10-03 17:36:15 | INFO     | scanners.signature_verifier  | Certificate whitelist: 1 certificate(s) from 2 file(s)
+2026-10-03 17:36:15 | INFO     | scanners.signature_verifier  | Loaded 0 trust anchor(s) from the Windows store
+2026-10-03 17:36:15 | INFO     | scanners.signature_verifier  | Certificate whitelist: 1 certificate(s) from 1 file(s)
+2026-10-03 17:36:15 | INFO     | scanners.signature_verifier  | Loaded 0 trust anchor(s) from the Windows store
+2026-10-03 17:36:15 | INFO     | scanners.signature_verifier  | Certificate whitelist: 1 certificate(s) from 1 file(s)
+2026-10-03 17:36:15 | INFO     | scanners.signature_verifier  | Loaded 0 trust anchor(s) from the Windows store
+2026-10-03 17:36:15 | INFO     | scanners.signature_verifier  | Certificate whitelist: 0 certificate(s) from 0 file(s)
+2026-10-03 17:36:15 | INFO     | scanners.signature_verifier  | Loaded 0 trust anchor(s) from the Windows store
+2026-10-03 17:36:15 | INFO     | scanners.signature_verifier  | Certificate whitelist: 0 certificate(s) from 0 file(s)
+2026-10-03 17:36:15 | INFO     | scanners.signature_verifier  | Certificate whitelist: 1 certificate(s) from 1 file(s)
+2026-10-03 17:36:15 | INFO     | scanners.signature_verifier  | Loaded 1 trust anchor(s) from the Windows store
+2026-10-03 17:36:15 | INFO     | scanners.signature_verifier  | Certificate whitelist: 0 certificate(s) from 0 file(s)
